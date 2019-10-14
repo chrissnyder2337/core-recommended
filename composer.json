@@ -1,0 +1,12 @@
+{
+    "name": "drupal/core-recommended",
+    "type": "metapackage",
+    "description": "Locked core dependencies; require this project INSTEAD OF drupal/core.",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "drupal/legacy-scaffold-assets": "self.version"
+    },
+    "conflict": {
+        "webflo/drupal-core-strict": "*"
+    }
+}
